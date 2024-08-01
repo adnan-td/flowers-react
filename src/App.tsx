@@ -20,7 +20,7 @@ function App() {
       {isVis ? (
         <Flower />
       ) : (
-        <div>
+        <div className="fb-container">
           <button
             className="fullscreen-button"
             onClick={handleFullscreen}
